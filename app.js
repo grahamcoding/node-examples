@@ -1,4 +1,5 @@
-import rectangle from 'rectangle';
+import rectangle from './rectangle.js'
+const rect = rectangle
 
 function solveRect(l, w) {
     console.log(`Solving for rectangle with dimensions: ${l}, ${w}`);
